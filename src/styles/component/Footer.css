@@ -1,0 +1,5 @@
+.footer-container{
+    color: var(--color-white-1);
+    background-color: var(--color-black-4);
+    height: 170px;
+}

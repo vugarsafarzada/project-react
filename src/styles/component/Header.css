@@ -1,0 +1,5 @@
+.header-container{
+    background-color: var(--color-black-2);
+    color: var(--color-white-5);
+    height: 70px;
+}
