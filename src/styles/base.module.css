@@ -1,8 +1,9 @@
-:root{
+:root {
     /* Colors */
     --color-blue-1: #1660AD;
     --color-blue-2: #2076ce;
     --color-blue-3: #3d8de2;
+    --color-blue-4: #00b1fd;
 
     --color-black-1: #131921;
     --color-black-2: #131A22;
@@ -20,9 +21,32 @@
     --color-gold-3: #FEBD69;
     --color-gold-4: #FFD814;
 
+    --color-header-background: var(--color-blue-4);
+    --color-header-navbar-background: var(--color-gold-2);
+    --color-search-box-background: var(--color-white-3);
+    --color-search-box-button-background: var(--color-gold-2);
+    --color-search-box-button-text: var(--color-white-5);
+    --color-header-text: var(--color-white-5);
+    --color-header-navbar-text: var(--color-white-5);
+
     /* Font Format */
     --font-size-default: 15px;
     --font-size-small: 9px;
     --font-size-middle: var(--font-size-default);
     --font-size-large: 20px;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url('../../assets/fonts/Gotham Normal/Gotham Book.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "Leckerli";
+    src: url('../../assets/fonts/LeckerliOne-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "MonAmour";
+    src: url('../../assets/fonts/MonAmourScriptPro.otf') format("truetype");
 }

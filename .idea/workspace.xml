@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ba04917-4e8e-4ca4-af93-268ba0894b9e" name="Default Changelist" comment="" />
+    <list default="true" id="4ba04917-4e8e-4ca4-af93-268ba0894b9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Gotham Normal/Gotham Black.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Gotham Normal/Gotham Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Gotham Normal/Gotham Book.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Gotham Normal/Gotham Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Gotham Normal/Gotham Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Gotham Normal/Gotham Thin.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Gotham Normal/Gotham Ultra.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Gotham Normal/Gotham XLight.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/LeckerliOne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/MonAmourScriptPro.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/component/Searchbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderNavbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderNavbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Searchbox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Searchbox.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/component/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/component/HeaderNavbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/HeaderNavbar.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="JSX" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -21,6 +48,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Master" />
+                    <option name="lastUsedInstant" value="1662763586" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1662763585" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="2EQXNxiSh5GLkt02KQumZCOaP5Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -43,6 +93,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="D:\Program Files\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -101,25 +152,25 @@
       <screen x="-768" y="0" width="768" height="1366" />
     </state>
     <state x="-743" y="370" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.864/-768.0.768.1366@-768.0.768.1366" timestamp="1662596887117" />
-    <state width="725" height="389" key="GridCell.Tab.0.bottom" timestamp="1662761450946">
+    <state width="725" height="389" key="GridCell.Tab.0.bottom" timestamp="1662764923262">
       <screen x="-768" y="-131" width="768" height="1366" />
     </state>
-    <state width="725" height="389" key="GridCell.Tab.0.bottom/0.0.1536.864/-768.-131.768.1366@-768.-131.768.1366" timestamp="1662761450946" />
+    <state width="725" height="389" key="GridCell.Tab.0.bottom/0.0.1536.864/-768.-131.768.1366@-768.-131.768.1366" timestamp="1662764923262" />
     <state width="723" height="388" key="GridCell.Tab.0.bottom/0.0.1536.864/-768.0.768.1366@-768.0.768.1366" timestamp="1662661392136" />
-    <state width="725" height="389" key="GridCell.Tab.0.center" timestamp="1662761450946">
+    <state width="725" height="389" key="GridCell.Tab.0.center" timestamp="1662764923262">
       <screen x="-768" y="-131" width="768" height="1366" />
     </state>
-    <state width="725" height="389" key="GridCell.Tab.0.center/0.0.1536.864/-768.-131.768.1366@-768.-131.768.1366" timestamp="1662761450946" />
+    <state width="725" height="389" key="GridCell.Tab.0.center/0.0.1536.864/-768.-131.768.1366@-768.-131.768.1366" timestamp="1662764923262" />
     <state width="723" height="388" key="GridCell.Tab.0.center/0.0.1536.864/-768.0.768.1366@-768.0.768.1366" timestamp="1662661392136" />
-    <state width="725" height="389" key="GridCell.Tab.0.left" timestamp="1662761450945">
+    <state width="725" height="389" key="GridCell.Tab.0.left" timestamp="1662764923262">
       <screen x="-768" y="-131" width="768" height="1366" />
     </state>
-    <state width="725" height="389" key="GridCell.Tab.0.left/0.0.1536.864/-768.-131.768.1366@-768.-131.768.1366" timestamp="1662761450945" />
+    <state width="725" height="389" key="GridCell.Tab.0.left/0.0.1536.864/-768.-131.768.1366@-768.-131.768.1366" timestamp="1662764923262" />
     <state width="723" height="388" key="GridCell.Tab.0.left/0.0.1536.864/-768.0.768.1366@-768.0.768.1366" timestamp="1662661392135" />
-    <state width="725" height="389" key="GridCell.Tab.0.right" timestamp="1662761450946">
+    <state width="725" height="389" key="GridCell.Tab.0.right" timestamp="1662764923262">
       <screen x="-768" y="-131" width="768" height="1366" />
     </state>
-    <state width="725" height="389" key="GridCell.Tab.0.right/0.0.1536.864/-768.-131.768.1366@-768.-131.768.1366" timestamp="1662761450946" />
+    <state width="725" height="389" key="GridCell.Tab.0.right/0.0.1536.864/-768.-131.768.1366@-768.-131.768.1366" timestamp="1662764923262" />
     <state width="723" height="388" key="GridCell.Tab.0.right/0.0.1536.864/-768.0.768.1366@-768.0.768.1366" timestamp="1662661392136" />
     <state width="725" height="478" key="GridCell.Tab.1.bottom" timestamp="1662559750789">
       <screen x="-768" y="0" width="768" height="1366" />
@@ -182,13 +233,15 @@
       <screen x="-768" y="0" width="768" height="1366" />
     </state>
     <state x="-675" y="296" width="581" height="774" key="find.popup/0.0.1536.864/-768.0.768.1366@-768.0.768.1366" timestamp="1662606289562" />
-    <state x="-728" y="322" key="run.anything.popup" timestamp="1662610499827">
-      <screen x="-768" y="0" width="768" height="1366" />
+    <state x="-728" y="191" key="run.anything.popup" timestamp="1662803989359">
+      <screen x="-768" y="-131" width="768" height="1366" />
     </state>
+    <state x="-728" y="191" key="run.anything.popup/0.0.1536.864/-768.-131.768.1366@-768.-131.768.1366" timestamp="1662803989359" />
     <state x="-728" y="322" key="run.anything.popup/0.0.1536.864/-768.0.768.1366@-768.0.768.1366" timestamp="1662610499827" />
-    <state x="-721" y="306" width="672" height="678" key="search.everywhere.popup" timestamp="1662670633469">
-      <screen x="-768" y="0" width="768" height="1366" />
+    <state x="-721" y="175" width="672" height="678" key="search.everywhere.popup" timestamp="1662804932954">
+      <screen x="-768" y="-131" width="768" height="1366" />
     </state>
+    <state x="-721" y="175" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/-768.-131.768.1366@-768.-131.768.1366" timestamp="1662804932954" />
     <state x="-721" y="306" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/-768.0.768.1366@-768.0.768.1366" timestamp="1662670633469" />
   </component>
   <component name="XDebuggerManager">
@@ -198,12 +251,6 @@
           <url>file://$PROJECT_DIR$/src/pages/Invoices.js</url>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/HeaderNavbar.jsx</url>
-          <line>1</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
