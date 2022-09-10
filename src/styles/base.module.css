@@ -4,6 +4,7 @@
     --color-blue-2: #2076ce;
     --color-blue-3: #3d8de2;
     --color-blue-4: #00b1fd;
+    --color-blue-5: #009DE0;
 
     --color-black-1: #131921;
     --color-black-2: #131A22;
@@ -24,8 +25,9 @@
     --color-header-background: var(--color-blue-4);
     --color-header-navbar-background: var(--color-gold-2);
     --color-search-box-background: var(--color-white-3);
-    --color-search-box-button-background: var(--color-gold-2);
-    --color-search-box-button-text: var(--color-white-5);
+    --color-search-box-button-background: var(--color-search-box-background);
+    --color-search-box-button-text: var(--color-blue-4);
+    --color-search-input-text: var(--color-blue-4);
     --color-header-text: var(--color-white-5);
     --color-header-navbar-text: var(--color-white-5);
 
@@ -34,6 +36,8 @@
     --font-size-small: 9px;
     --font-size-middle: var(--font-size-default);
     --font-size-large: 20px;
+
+    --box-shadow-default: rgba(50, 50, 93, 0.25) 0 10px 10px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
 }
 
 @font-face {

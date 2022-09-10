@@ -2,7 +2,14 @@
     background-color: var(--color-header-navbar-background);
     color: var(--color-header-navbar-text);
     height: 40px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    padding-left: 24px;
+}
+
+.header-navbar-container a{
+    padding: 8px;
+}
+
+.header-navbar-container a:hover{
+    opacity: 1;
+    background-color: var(--color-header-background);
 }
