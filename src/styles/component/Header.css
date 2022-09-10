@@ -1,5 +1,31 @@
 .header-container{
-    background-color: var(--color-black-2);
-    color: var(--color-white-5);
-    height: 70px;
+    background-color: var(--color-header-background);
+    color: var(--color-header-text);
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
 }
+
+.header-container .title-box{
+    padding: 25px;
+}
+
+.header-container .title-box .title{
+    font-family: Leckerli, fantasy;
+    font-size: 35px;
+}
+
+.header-container .login-box .login{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.header-container a:hover{
+    color: var(--color-gold-4)
+}
+

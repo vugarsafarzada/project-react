@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 export default function HeaderNavbar(){
     return(
-        <div className="header-navbar-container">
+        <div className="header-navbar-container no-select">
             <Link to={'/'}>Home</Link>
             <Link to={'/about-us'}>About</Link>
             <Link to={'/invoices'}>Invoices</Link>

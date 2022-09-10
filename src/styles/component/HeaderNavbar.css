@@ -1,6 +1,6 @@
 .header-navbar-container{
-    background-color: var(--color-black-3);
-    color: var(--color-white-5);
+    background-color: var(--color-header-navbar-background);
+    color: var(--color-header-navbar-text);
     height: 40px;
     display: flex;
     justify-content: flex-start;

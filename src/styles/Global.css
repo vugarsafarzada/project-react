@@ -24,12 +24,13 @@ code {
 
 a {
     text-decoration: none;
-    color: var(--color-gold-2);
+    color: var(--color-white-2);
     margin: 0 10px 0 10px;
+    font-weight: bold;
 }
 
 a:hover {
-    color: var(--color-gold-4)
+    color: var(--color-black-4)
 }
 
 .App{
@@ -44,4 +45,14 @@ a:hover {
 .App .page-container{
     min-height:100vh;
     background-color: var(--color-white-2);
+    padding:40px;
+}
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
 }
