@@ -2,10 +2,6 @@
     background-color: var(--color-header-background);
     color: var(--color-header-text);
     height: 120px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
 }
 
 .header-container .title-box{
@@ -14,18 +10,27 @@
 
 .header-container .title-box .title{
     font-family: Leckerli, fantasy;
-    font-size: 35px;
+    font-size: 5vh;
 }
 
 .header-container .login-box .login{
-    display: flex;
-    flex-direction: row;
     height: 30px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    margin-right: 0;
 }
+
+.header-container .login-box .signup{
+    background-color: var(--color-search-box-background);
+    color:var(--color-blue-5);
+    height: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
 .header-container a:hover{
-    color: var(--color-gold-4)
+    color: var(--color-white-5);
+}
+
+.header-container .login-box span{
+    font-weight: 400;
 }
 

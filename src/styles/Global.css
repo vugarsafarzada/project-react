@@ -5,6 +5,7 @@
     padding: 0;
     margin-block: 0;
     margin-inline: 0;
+    transition-duration: 0.4s;
 }
 
 
@@ -26,11 +27,16 @@ a {
     text-decoration: none;
     color: var(--color-white-2);
     margin: 0 10px 0 10px;
-    font-weight: bold;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 a:hover {
-    color: var(--color-black-4)
+    color: var(--color-white-5);
+    opacity: 0.9;
 }
 
 .App{
@@ -46,6 +52,7 @@ a:hover {
     min-height:100vh;
     background-color: var(--color-white-2);
     padding:40px;
+    box-shadow: var(--box-shadow-default)
 }
 
 .no-select {
@@ -56,3 +63,55 @@ a:hover {
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
 }
+
+.flex-row-center-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column-center-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row-space-between-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-row-space-around-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-column-space-between-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column-space-around-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-row-start-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-shadow-inside{
+    box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+}
+
