@@ -12,10 +12,10 @@ export default function HeaderNavbar(){
                 <GoTelescope className='m-1'/>
                 Discovery
             </Link>
-            <Link to={'/about-us'}>
+            <Link to={'/restaurants'}>
                 <BiRestaurant className='m-1'/> Restaurants
             </Link>
-            <Link to={'/invoices'}>
+            <Link to={'/about-us'}>
                 <BsInfoCircleFill className='m-1'/>
                 About us
             </Link>
