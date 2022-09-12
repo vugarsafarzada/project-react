@@ -39,19 +39,19 @@ a:hover {
     opacity: 0.9;
 }
 
-.App{
+.App {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
     background-color: var(--color-white-5);
-    min-height:100vh;
+    min-height: 100vh;
 }
 
-.App .page-container{
-    min-height:100vh;
+.App .page-container {
+    min-height: 100vh;
     background-color: var(--color-white-2);
-    padding:40px;
+    padding: 50px 40px;
     box-shadow: var(--box-shadow-default)
 }
 
@@ -64,54 +64,77 @@ a:hover {
     user-select: none;
 }
 
-.flex-row-center-center{
+.flex-row-center-center {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.flex-column-center-center{
+
+.flex-column-center-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.flex-row-space-between-center{
+.flex-row-space-between-center {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.flex-row-space-around-center{
+.flex-row-space-around-center {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.flex-column-space-between-center{
+.flex-column-space-between-center {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.flex-column-space-around-center{
+.flex-column-space-between-flex-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flex-column-center-flex-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-row-space-between-flex-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flex-column-space-around-center {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.flex-row-start-center{
+
+.flex-row-start-center {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
 
-.box-shadow-inside{
+.box-shadow-inside {
     box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
 }
 

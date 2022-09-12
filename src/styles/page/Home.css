@@ -1,0 +1,18 @@
+.home-container .intro-text h1{
+    font-weight: 800;
+}
+
+.home-container .intro-text{
+    padding: 10px 30px;
+}
+
+.home-container .intro-section .intro-img{
+    width:450px;
+    height: 420px;
+    background: var(--color-white-5);
+    border-radius: 50%;
+}
+
+.home-container>div{
+    margin-bottom: 100px;
+}

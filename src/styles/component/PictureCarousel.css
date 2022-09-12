@@ -1,0 +1,39 @@
+.carousel-container{
+    overflow: hidden;
+    height: 400px;
+    transition-duration: 1s !important;
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-container .arrows{
+    width: 94vw;
+    height: 100px;
+    position: absolute;
+    z-index: 5;
+}
+.carousel-container .arrows>div{
+    background-color: var(--color-white-5);
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.carousel-container .carousel-items{
+    height: 100%;
+    display: flex;
+    position: relative;
+    z-index: 0;
+    transition-duration: 1s !important;
+}
+
+.carousel-container .carousel-items .cars-item{
+    background-color: var(--color-blue-5);
+    margin: 0 10px;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    transition-duration: 1s !important;
+
+}
